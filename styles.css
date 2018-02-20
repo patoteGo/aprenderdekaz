@@ -1,0 +1,290 @@
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background: gray;
+}
+a {
+    text-decoration: none !important; 
+  }
+
+.principal{
+    height: 1100px;
+    width: 1200px;
+    padding-top: 30px;
+    background: url("images/bg_haygrove.jpg") no-repeat center;
+}
+
+.logo{
+    height: 166px;
+    width: 508px;
+    margin: 0 45px 0 auto;
+    margin-top: -193px;
+    background: url(images/LOGO-haygrove.png) no-repeat center;
+    background-size: contain;
+}
+
+
+.productos
+{
+    display: flex;
+    margin-top: 458px;
+    justify-content: space-evenly;
+    padding: 0 85px 0 85px;
+}
+.producto1, .producto2, .producto3, .producto4, .producto5 {
+    height: 175px;
+    width: 171px;
+    margin-right: 10px;
+    background: url("images/foto-1.png") no-repeat center;
+    transition: all 0.25s ease-in-out;
+}
+.producto2 { background: url("images/foto-2.png") no-repeat center; }
+.producto3 { background: url("images/foto-3.png") no-repeat center; }
+.producto4 { background: url("images/foto-4.png") no-repeat center; }
+.producto5 { background: url("images/foto-5.png") no-repeat center; }
+.producto1:hover, .producto1:focus{
+    background: url("images/prod_hover_1.jpg") no-repeat center; 
+}
+.producto2:hover, .producto2:focus{
+    background: url("images/prod_hover_2.jpg") no-repeat center; 
+}
+.producto3:hover, .producto3:focus{
+    background: url("images/prod_hover_3.jpg") no-repeat center; 
+}
+.producto4:hover, .producto4:focus{
+    background: url("images/prod_hover_4.jpg") no-repeat center; 
+}
+.producto5:hover, .producto5:focus{
+    background: url("images/prod_hover_5.jpg") no-repeat center; 
+}
+.contactos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 93px;
+    color: white;
+    display: flex;
+}
+.nombre{    
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+}
+.comercial, .ventas, .ventas2
+{
+    display: flex;
+    flex-direction: row;
+}
+.contex{
+    color:white;
+    font-size: 12px;
+    text-align: end;
+    margin-top: -51px;
+    margin-right: 15px;
+    margin-left: 60px;
+    line-height: 18px;
+}
+.cargo{
+    margin-top: 8px;
+}
+.email, .whatsapp{
+    margin-right: -15px;
+    color:white;
+    text-decoration: none;
+}
+
+
+.conimg1, .conimg2, .conimg3{
+    background-image: url(images/gerentecomercial.png);
+    height: 170px;
+    width: 147px;
+    margin-top: -65px;
+}
+.conimg2{
+    background-image: url(images/gerenteventas.png);
+}
+.conimg3{
+    background-image: url(images/gerenteventas2.png);
+}
+.markup{
+    font-size: 45px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.direcmain{
+    display: flex;
+    margin-top: 2px;
+}
+.direcciones{
+    display: flex;
+    align-content: center;
+    color: #70ad77;
+    text-decoration: none;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    line-height: 22px;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+.direccion{
+    margin-left: 0px;
+    color: #70ad77;
+       
+}
+.paginaweb{
+    margin-left: 120px;
+    margin-top: 22px;
+    color: #70ad77;
+}
+.instagram
+{
+    margin-top: 15px;
+    margin-left: 13px;
+    align-self: center;
+    color: #70ad77;
+}
+.fa-envelope-o:before {
+    content: "\f003";
+    font-size: 14px;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    font-size: 31px;
+}
+.fa-whatsapp:before {
+    content: "\f232";
+    font-size: 16px;
+}
+
+.banderauk
+{
+    background-image: url(images/bandera-landin.png);
+    height: 68px;
+    width: 114px;
+}
+.fondo{
+	background-color: rgba(251,251,251,0.6);
+    opacity: 1;
+    margin-left: 50px;
+	width: 360px;
+	height: 200px;
+}
+.banner{
+	width: 360px;
+	height: 200px;
+	background-size: 100% 100%;
+	background-image: url(images/banner_animado.gif);
+	
+}
+
+
+	
+
+
+
+@media (max-width:544px){
+    body{
+        background-color: #456846;
+    }
+    .logo{
+        height: 166px;
+        width: 330px;
+        float: none;
+        margin: 0 auto;
+        background: url(images/LOGO-haygrove.png) no-repeat center;
+        background-size: contain;    
+    }
+    .principal{
+        background: url("images/back-movil.jpg") no-repeat center;
+        margin-top: -8px;
+        height: 1335px;
+        width:544px;
+    }
+    .banner{
+        margin: 0 auto;
+        margin-top: -23px;
+    }
+    .fondo{
+    margin: 0 auto;
+    }
+
+    .productos{
+        margin-top: 0px;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .producto1, .producto2, .producto3, .producto4, .producto5 {
+        margin-top:10px;
+        width: 155px;
+    }
+    .contactos{
+        flex-wrap: wrap;
+
+    margin-top: 90px;
+    }
+    .comercial, .ventas, .ventas2 {
+        height: 170px;
+        margin: 0 auto!important;
+    }
+    .direcciones{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: 70px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .direccion{
+        text-align: center;
+        font-size: 22px;
+    }
+    .fa-map-marker:before {
+        display: none;
+    }
+    .paginaweb {
+     margin-left: 32px;
+    }
+    .instagram{
+        margin-top: 20px;
+    }
+    .banderauk{
+        background-size: cover;
+        height: 118px;
+        width: 231px;
+        margin-bottom: 50px;
+    }
+.nombre{
+        font-size: 32px;
+}
+.contex{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+.comercial, .ventas, .ventas2{
+    flex-direction: column;
+    height: auto;
+}
+.conimg1, .conimg2, .conimg3{
+    order:-1;
+    width: 234px;
+    height: 287px;
+    background-size: cover;
+    margin-top: 0px;
+    align-self: center;
+}
+.comercial{
+    margin-right: 0px;
+}
+
+    }
+
+
